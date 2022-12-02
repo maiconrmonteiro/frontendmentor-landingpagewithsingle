@@ -81,3 +81,55 @@ footer {
     color: #ef52cb;
     border: 1px solid #ef52cb;
 }
+
+@media only screen and (max-width: 500px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 40px;
+    }
+
+    header {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .logo {
+        padding-left: 20px;
+        
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    section img {
+        width: 100%;
+    }
+
+    .conteiner-txt {
+        margin-left: 0;
+    }
+
+    .conteiner-txt h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .conteiner-txt p {
+        text-align: center;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-top: 20px;
+    }
+}
